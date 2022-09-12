@@ -1,0 +1,46 @@
+/* html,body,#root,.room {
+   
+    height: 100%;
+    margin: 0;
+  } */
+
+
+  body{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .room,#root,html{
+    height: 90%;
+    padding: 50px;
+    padding-top: 70px;
+    border-radius: 10px;
+
+    
+    
+  }
+ 
+  .Lit{
+    background-color: yellow;
+    box-shadow: 0px 0px 10px gray;
+    color:black;
+  }
+  .dark{
+    background-color: black;
+    box-shadow: 0px 0px 10px gray;
+    color: white;
+  }
+  .text{
+    font-size: 50px;
+  
+  
+  }
+  .but{
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px lightgray;
+
+  }
